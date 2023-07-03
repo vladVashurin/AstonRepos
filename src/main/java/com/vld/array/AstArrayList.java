@@ -147,5 +147,16 @@ public class AstArrayList<E> implements AstList<E> {
         quickSort(S, comp, a, left - 1);
         quickSort(S, comp, left + 1, b);
     }
+
+    public boolean contains(Object o) {
+        boolean contains = false;
+        for (int i = 0; i < size; i++) {
+            if (array[i].equals(o)) {
+                contains = true;
+                break;
+            }
+        }
+        return contains;
+    }
 }
 

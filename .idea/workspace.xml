@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fff5732-5d3d-4309-a390-5695f4ec561b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vld/array/AstArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/array/AstArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/array/AstArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vld/array/AstArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vld/array/AstArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="com.vld.array" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AstArrayListTest.testAdd">
+  <component name="RunManager" selected="JUnit.AstArrayListTest.addAll">
     <configuration name="AstArrayListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AstonRep" />
       <extension name="coverage">
@@ -70,6 +71,22 @@
       <option name="PACKAGE_NAME" value="com.vld.array" />
       <option name="MAIN_CLASS_NAME" value="com.vld.array.AstArrayListTest" />
       <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstArrayListTest.addAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonRep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.array" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.array.AstArrayListTest" />
+      <option name="METHOD_NAME" value="addAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AstArrayListTest.addAll" />
         <item itemvalue="JUnit.AstArrayListTest.testAdd" />
         <item itemvalue="JUnit.AstArrayListTest.add" />
       </list>
@@ -106,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688422808641</updated>
-      <workItem from="1688422810842" duration="2066000" />
+      <workItem from="1688422810842" duration="3677000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <option name="closed" value="true" />
@@ -140,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688423616711</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creating arrayList">
+      <option name="closed" value="true" />
+      <created>1688424938100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688424938100</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
