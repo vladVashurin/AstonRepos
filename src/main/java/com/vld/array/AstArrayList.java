@@ -19,13 +19,10 @@ public class AstArrayList<E> implements AstList<E> {
     }
 
     @Override
-    public boolean add(int index, E element) {
+    public void add(int index, E element) {
         checkIndexWithoutEqual(index);
         growCapacity();
-        System.arraycopy(array, index, array, index + 1, size - index);
-        array[index] = element;
-        size++;
-        return true;
+        rightShift(index, element);
     }
 
     @Override
@@ -64,17 +61,18 @@ public class AstArrayList<E> implements AstList<E> {
     }
 
     @Override
-    public boolean remove(int index) {
+    public E remove(int index) {
+        E element = get(index);
         checkIndexWithoutEqual(index);
-        shift(index);
-        return true;
+        leftShift(index);
+        return element;
     }
 
     @Override
     public boolean remove(Object o) {
         for (int i = 0; i < size; i++) {
             if (array[i].equals(o) && array[i] != null) {
-                shift(i);
+                leftShift(i);
                 break;
             }
         }
@@ -114,10 +112,16 @@ public class AstArrayList<E> implements AstList<E> {
         }
     }
 
-    private void shift(int index) {
+    private void leftShift(int index) {
         System.arraycopy(array, index + 1, array, index, size - 1 - index);
         size--;
         array[size] = null;
+    }
+
+    private void rightShift(int index, E element) {
+        System.arraycopy(array, index, array, index + 1, size - index);
+        array[index] = element;
+        size++;
     }
 
     private <E> void quickSort(Object[] S, Comparator<E> comp, int a,
