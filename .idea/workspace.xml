@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fff5732-5d3d-4309-a390-5695f4ec561b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vld/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vld/array/AstArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vld/array/AstList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/array/AstArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/array/AstArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/array/AstList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/array/AstList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,6 +40,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +49,104 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vld.array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AstArrayListTest">
+    <configuration name="AstArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonRep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.array" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.array.AstArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstArrayListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonRep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.array" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.array.AstArrayListTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstArrayListTest.addAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonRep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.array" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.array.AstArrayListTest" />
+      <option name="METHOD_NAME" value="addAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstArrayListTest.removeByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonRep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.array" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.array.AstArrayListTest" />
+      <option name="METHOD_NAME" value="removeByIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AstArrayListTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonRep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.array" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.array.AstArrayListTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AstArrayListTest" />
+        <item itemvalue="JUnit.AstArrayListTest.addAll" />
+        <item itemvalue="JUnit.AstArrayListTest.testAdd" />
+        <item itemvalue="JUnit.AstArrayListTest.add" />
+        <item itemvalue="JUnit.AstArrayListTest.removeByIndex" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688422808641</updated>
-      <workItem from="1688422810842" duration="646000" />
+      <workItem from="1688422810842" duration="7551000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <option name="closed" value="true" />
@@ -81,7 +181,39 @@
       <option name="project" value="LOCAL" />
       <updated>1688423251097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating arrayList">
+      <option name="closed" value="true" />
+      <created>1688423616711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688423616711</updated>
+    </task>
+    <task id="LOCAL-00005" summary="creating arrayList">
+      <option name="closed" value="true" />
+      <created>1688424938100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688424938100</updated>
+    </task>
+    <task id="LOCAL-00006" summary="creating tests">
+      <option name="closed" value="true" />
+      <created>1688426560842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688426560842</updated>
+    </task>
+    <task id="LOCAL-00007" summary="version 1.0">
+      <option name="closed" value="true" />
+      <created>1688430250772</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688430250772</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +221,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw1" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw1" />
+    <MESSAGE value="creating arrayList" />
+    <MESSAGE value="creating tests" />
+    <MESSAGE value="version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
   </component>
 </project>
