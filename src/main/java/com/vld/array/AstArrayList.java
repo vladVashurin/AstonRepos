@@ -5,10 +5,17 @@ import java.util.Collection;
 import java.util.Comparator;
 
 public class AstArrayList<E> implements AstList<E> {
-    private int capacity = 10;
-    private Object[] array = new Object[capacity];
+    private static final int DEFAULT_CAPACITY = 10;
+    private Object[] array = new Object[DEFAULT_CAPACITY];
     private int size = 0;
 
+    public AstArrayList() {
+
+    }
+
+    public AstArrayList(int capacity) {
+        this.array = new Object[capacity];
+    }
 
     @Override
     public boolean add(E element) {
@@ -51,13 +58,10 @@ public class AstArrayList<E> implements AstList<E> {
 
     @Override
     public boolean isEmpty() {
-        boolean isEmpty = true;
-        for (int i = 0; i < size; i++) {
-            if (array[i] != null) {
-                isEmpty = false;
-            }
-        }
-        return isEmpty;
+        if (array[0] != null) {
+            return false;
+        } else return true
+                ;
     }
 
     @Override
@@ -92,12 +96,11 @@ public class AstArrayList<E> implements AstList<E> {
         if (checkCapacity()) {
             int newCapacity = array.length * 3 / 2 + 1;
             array = Arrays.copyOf(array, newCapacity);
-            capacity = newCapacity;
         }
     }
 
     private boolean checkCapacity() {
-        return capacity <= size * 100 / 75;
+        return array.length <= size * 100 / 75;
     }
 
     private void checkIndexWithEqual(int index) {
@@ -154,14 +157,12 @@ public class AstArrayList<E> implements AstList<E> {
 
     @Override
     public boolean contains(Object o) {
-        boolean contains = false;
         for (int i = 0; i < size; i++) {
             if (array[i].equals(o)) {
-                contains = true;
-                break;
+                return true;
             }
         }
-        return contains;
+        return false;
     }
 }
 

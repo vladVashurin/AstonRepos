@@ -2,6 +2,7 @@ package com.vld.array;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
@@ -15,33 +16,34 @@ class AstArrayListTest {
         list = new AstArrayList<>();
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void add() {
         list.add(1);
         assertEquals(1, list.size());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void testAddByIndex() {
         Integer num = 2;
         list.add(0, num);
+        assertEquals(num, list.get(0));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void tesAddByIndexException() {
         Assertions.assertThrows(IndexOutOfBoundsException.class, () -> {
             list.add(1, 5);
         });
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void addAll() {
         List<Integer> added = List.of(1, 2, 3, 4, 5, 6);
         list.addAll(added);
         assertEquals(added.size(), list.size());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void clear() {
         List<Integer> added = List.of(1, 2, 3, 4, 5, 6);
         list.addAll(added);
@@ -49,26 +51,26 @@ class AstArrayListTest {
         assertTrue(list.isEmpty());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void get() {
         Integer integer = 5;
         list.add(integer);
         assertEquals(integer, list.get(0));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getException() {
         Assertions.assertThrows(IndexOutOfBoundsException.class, () -> {
             list.get(5);
         });
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isEmpty() {
         assertTrue(list.isEmpty());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void removeByObject() {
         Integer n = 2;
         list.addAll(List.of(1, 2, 3, 4, 5));
@@ -76,7 +78,7 @@ class AstArrayListTest {
         assertFalse(list.contains(n));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void removeByIndex() {
         Integer n = 5;
         list.addAll(List.of(1, 2, 5, 4, 6));
@@ -84,14 +86,14 @@ class AstArrayListTest {
         assertFalse(list.contains(n));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void removeByIndexException() {
         Assertions.assertThrows(IndexOutOfBoundsException.class, () -> {
             list.remove(5);
         });
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void sort() {
         list.addAll(List.of(5, 1, 2, 6, 7));
         list.sort((o1, o2) -> o1.compareTo(o2));
@@ -105,7 +107,7 @@ class AstArrayListTest {
         assertTrue(res);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void size() {
         list.add(1);
         list.add(2);
