@@ -152,6 +152,7 @@ public class AstArrayList<E> implements AstList<E> {
         quickSort(S, comp, left + 1, b);
     }
 
+    @Override
     public boolean contains(Object o) {
         boolean contains = false;
         for (int i = 0; i < size; i++) {

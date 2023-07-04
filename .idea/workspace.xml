@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fff5732-5d3d-4309-a390-5695f4ec561b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/array/AstArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/array/AstArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/array/AstList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/array/AstList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vld/array/AstArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vld/array/AstArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688422808641</updated>
-      <workItem from="1688422810842" duration="7196000" />
+      <workItem from="1688422810842" duration="7551000" />
     </task>
     <task id="LOCAL-00001" summary="hw1">
       <option name="closed" value="true" />
@@ -208,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688426560842</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="version 1.0">
+      <option name="closed" value="true" />
+      <created>1688430250772</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688430250772</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +223,7 @@
     <MESSAGE value="hw1" />
     <MESSAGE value="creating arrayList" />
     <MESSAGE value="creating tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating tests" />
+    <MESSAGE value="version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
   </component>
 </project>
